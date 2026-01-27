@@ -1,0 +1,20 @@
+# Site settings
+title: CanHost
+email: support@canhost.co.uk
+url: https://www.canhost.co.uk
+description: "Small Business Web Hosting"
+
+# Color settings
+color:
+  primary-dark: '#1a1a1a'
+  links: '#00b4d8'
+
+# Footer settings
+footer: CanMarket Limited trading as CanHost
+
+# Social networks - empty for now
+social: []
+
+# Build settings
+markdown: kramdown
+permalink: pretty
