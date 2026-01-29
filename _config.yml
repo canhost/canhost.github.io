@@ -4,6 +4,9 @@ email: support@canhost.co.uk
 url: https://www.canhost.co.uk
 description: "Small Business Web Hosting"
 meta_description: "Reliable, affordable web hosting for UK small businesses. Simple setup, friendly support, and competitive pricing from CanHost."
+company_name: "CanMarket Limited"
+logo: canhost.png
+og_image: og-image.jpg
 
 # Color settings
 color:
