@@ -66,7 +66,7 @@ CookieConsent.run({
             readOnly: true
         },
         analytics: {
-            enabled: false,
+            enabled: true,
             autoClear: {
                 cookies: [
                     { name: /^_ga/ },
