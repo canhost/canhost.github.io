@@ -27,8 +27,8 @@ CookieConsent.run({
     // Auto-show the banner
     autoShow: true,
 
-    // Don't block page interaction
-    disablePageInteraction: false,
+    // Block page interaction until consent given
+    disablePageInteraction: true,
 
     // Hide from bots
     hideFromBots: true,
@@ -97,14 +97,12 @@ CookieConsent.run({
                     title: 'We use cookies',
                     description: 'We use cookies to improve your experience on our site and to analyse our traffic. You can choose which cookies you allow.',
                     acceptAllBtn: 'Accept all',
-                    acceptNecessaryBtn: 'Reject all',
                     showPreferencesBtn: 'Manage preferences',
                     footer: '<a href="/privacy">Privacy Policy</a>'
                 },
                 preferencesModal: {
                     title: 'Cookie Preferences',
                     acceptAllBtn: 'Accept all',
-                    acceptNecessaryBtn: 'Reject all',
                     savePreferencesBtn: 'Save preferences',
                     closeIconLabel: 'Close',
                     sections: [
